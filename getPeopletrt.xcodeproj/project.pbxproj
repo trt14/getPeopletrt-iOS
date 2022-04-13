@@ -17,6 +17,10 @@
 		D8F993AE277B30EA007FEA05 /* getPeopletrtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F993AD277B30EA007FEA05 /* getPeopletrtTests.swift */; };
 		D8F993B8277B30EA007FEA05 /* getPeopletrtUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F993B7277B30EA007FEA05 /* getPeopletrtUITests.swift */; };
 		D8F993BA277B30EB007FEA05 /* getPeopletrtUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F993B9277B30EB007FEA05 /* getPeopletrtUITestsLaunchTests.swift */; };
+		D8F993C7277B3844007FEA05 /* FilmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F993C6277B3844007FEA05 /* FilmsViewController.swift */; };
+		D8F993C9277B3CB6007FEA05 /* StarWarsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F993C8277B3CB6007FEA05 /* StarWarsModel.swift */; };
+		D8F993CB277B8853007FEA05 /* PeopleDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F993CA277B8853007FEA05 /* PeopleDetailsViewController.swift */; };
+		D8F993CD277B8865007FEA05 /* FilmsDestailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F993CC277B8865007FEA05 /* FilmsDestailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		D8F993B3277B30EA007FEA05 /* getPeopletrtUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = getPeopletrtUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8F993B7277B30EA007FEA05 /* getPeopletrtUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getPeopletrtUITests.swift; sourceTree = "<group>"; };
 		D8F993B9277B30EB007FEA05 /* getPeopletrtUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getPeopletrtUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D8F993C6277B3844007FEA05 /* FilmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsViewController.swift; sourceTree = "<group>"; };
+		D8F993C8277B3CB6007FEA05 /* StarWarsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsModel.swift; sourceTree = "<group>"; };
+		D8F993CA277B8853007FEA05 /* PeopleDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleDetailsViewController.swift; sourceTree = "<group>"; };
+		D8F993CC277B8865007FEA05 /* FilmsDestailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsDestailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +111,16 @@
 			children = (
 				D8F99393277B30E4007FEA05 /* AppDelegate.swift */,
 				D8F99395277B30E4007FEA05 /* SceneDelegate.swift */,
+				D8F993CA277B8853007FEA05 /* PeopleDetailsViewController.swift */,
 				D8F99397277B30E4007FEA05 /* ViewController.swift */,
+				D8F993C6277B3844007FEA05 /* FilmsViewController.swift */,
+				D8F993CC277B8865007FEA05 /* FilmsDestailsViewController.swift */,
 				D8F99399277B30E4007FEA05 /* Main.storyboard */,
 				D8F9939F277B30EA007FEA05 /* Assets.xcassets */,
 				D8F993A1277B30EA007FEA05 /* LaunchScreen.storyboard */,
 				D8F993A4277B30EA007FEA05 /* Info.plist */,
 				D8F9939C277B30E4007FEA05 /* getPeopletrt.xcdatamodeld */,
+				D8F993C8277B3CB6007FEA05 /* StarWarsModel.swift */,
 			);
 			path = getPeopletrt;
 			sourceTree = "<group>";
@@ -263,7 +275,11 @@
 			files = (
 				D8F9939E277B30E4007FEA05 /* getPeopletrt.xcdatamodeld in Sources */,
 				D8F99398277B30E4007FEA05 /* ViewController.swift in Sources */,
+				D8F993C7277B3844007FEA05 /* FilmsViewController.swift in Sources */,
 				D8F99394277B30E4007FEA05 /* AppDelegate.swift in Sources */,
+				D8F993CB277B8853007FEA05 /* PeopleDetailsViewController.swift in Sources */,
+				D8F993CD277B8865007FEA05 /* FilmsDestailsViewController.swift in Sources */,
+				D8F993C9277B3CB6007FEA05 /* StarWarsModel.swift in Sources */,
 				D8F99396277B30E4007FEA05 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
